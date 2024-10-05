@@ -1,0 +1,37 @@
+body {
+    /* background-image: url(https://art.pixilart.com/359583ad3082f03.gif); */
+    background-image: url(https://www.wallpaperflare.com/static/143/406/539/retro-games-pixels-clouds-pixel-art-wallpaper.jpg);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+}
+
+.graficos {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.75)
+}
+
+.grafico {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 500px;
+    height: 280px;
+}
+
+.grafico p {
+    margin: 0;
+    font-size: larger;
+    align-self: center;
+}
